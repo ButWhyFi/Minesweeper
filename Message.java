@@ -45,8 +45,7 @@ public class Message {
 
 
     // CHANGE ONLY THE FILE DIRECTOY BELOW!
-    // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\homework).
-    // EXCLUDE THE FILE NAME AS IT IS INCLUDED ON THE RIGHT.
+    // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\Images).
     Image image = new Image("FILE\\DIRECTORY\\HERE" + "retry.png");
 
 
