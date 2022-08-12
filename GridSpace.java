@@ -120,10 +120,10 @@ public class GridSpace extends GridPane {
   public ImageView displayImage(String itemName, int imageSize) throws FileNotFoundException {
 
 
-    // CHANGE THE FILE DIRECTOY BELOW! 
+    // CHANGE THE FILE DIRECTOY TO BELOW! 
     // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\homework).
     Image image = new Image(new FileInputStream(
-        "INSERT//FILE//DIRECTORY//HERE" + itemName + ".png"));
+        "INSERT\\FILE\\DIRECTORY\\HERE" + itemName + ".png"));
 
 
     ImageView view = new ImageView(image);
