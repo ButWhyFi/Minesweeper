@@ -123,7 +123,7 @@ public class GridSpace extends GridPane {
     // CHANGE THE FILE DIRECTOY BELOW! 
     // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\homework).
     Image image = new Image(new FileInputStream(
-        "C:\\Users\\Jz111\\eclipse-workspace\\Minesweeper\\Images\\" + itemName + ".png"));
+        "INSERT//FILE//DIRECTORY//HERE" + itemName + ".png"));
 
 
     ImageView view = new ImageView(image);
