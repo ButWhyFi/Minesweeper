@@ -1,4 +1,5 @@
 # Minesweeper
+JavaFx is required to be installed to run this program.
 
 Minesweeper program with 3 difficulty levels. Download all assets and change the file directories in GridSpace.java and Message.java to the file directory of the folder labled "images".
 
