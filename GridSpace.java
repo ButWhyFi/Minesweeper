@@ -121,7 +121,7 @@ public class GridSpace extends GridPane {
 
 
     // CHANGE THE FILE DIRECTOY TO BELOW! 
-    // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\homework).
+    // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\Images).
     Image image = new Image(new FileInputStream(
         "INSERT\\FILE\\DIRECTORY\\HERE" + itemName + ".png"));
 
