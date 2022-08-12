@@ -44,9 +44,10 @@ public class Message {
     vBox.getChildren().add(Minesweeper.retryBtn);
 
 
-    // CHANGE THE FILE DIRECTOY BELOW!
+    // CHANGE ONLY THE FILE DIRECTOY BELOW!
     // ADD AN EXTRA "\" EVERY TIME IT SHOWS UP (i.e. \\downloads\\homework).
-    Image image = new Image("C:\\Users\\Jz111\\eclipse-workspace\\Minesweeper\\Images\\retry.png");
+    // EXCLUDE THE FILE NAME AS IT IS INCLUDED ON THE RIGHT.
+    Image image = new Image("FILE\\DIRECTORY\\HERE" + "retry.png");
 
 
     ImageView imageView = new ImageView(image);
